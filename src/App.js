@@ -1,21 +1,11 @@
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import React, { useRef, useState } from "react";
+import React, {  useState } from "react";
 import { useEffect } from "react";
 
 function App() {
-  // let myRef = React.useRef();
-  const [body, setBody] = useState("");
   const [sum, setSum] = useState(0);
-  const [count, setCount] = useState(1);
-  const [price, setPrice] = useState("");
-
-  // let click = () => {
-  //   setBody(myRef.current.innerHTML);
-  // };
-
-  // console.log("this is body==>",body)
   const [items, setnewItems] = useState([
     {
       image: "https://osta.ng/wp-content/uploads/2021/03/1-791.jpg",
