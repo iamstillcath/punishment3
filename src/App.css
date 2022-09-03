@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+body{
+  position: static;
+  height: auto;
+  width: auto;
+  background-color: rgb(173, 196, 196);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1{ 
+  font-weight: bold;
+  margin-left: 40%;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  color: rgb(22, 65, 65);
+  font-size: 40px;
   }
+
+.cover{
+    margin-top: 48px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sub-cover{
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  }
+
+  h2{
+    font-size: 20px;
+   margin-left: 170px;
+   margin-top: -88px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(22, 65, 65);
+   }
+   
+   h3{
+       margin-left: 170px;
+       margin-top: -16px;
+       font-family: Arial, Helvetica, sans-serif;
+   color: rgb(7, 124, 124);;
+   }
+
+   button{
+    margin-left: 165px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.remove{
+  border: none;
+  margin-bottom: 30px;
+  background-color: rgb(173, 196, 196);
+
+}
+
+img{
+  width: 10%;
+}
+
+.arrow-div{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 88%;
+  margin-top: -12%;
 }
 
-.App-link {
-  color: #61dafb;
+hr{
+  border: 1px solid rgb(18, 100, 133);
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#reset{
+  margin-left: 45%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgb(173, 196, 196);;
+}
+
+span{
+font-size: 22px;
+padding: 5px;
+
+  
+}
+
+@media screen and (max-width: 600px){
+  h1{
+    margin-left: 25%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+  .sub-cover{
+    margin-right: 20%;
+    }
+
+    img{
+      /* margin-bottom: 10%; */
+      width: 30%;
+    }
+
+    .arrow-div{
+      margin-top: -35%;
+    }
 }
