@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/punishment3/static/css/main.4d0c4e0a.css",
+    "main.js": "/punishment3/static/js/main.8cd461ad.js",
+    "index.html": "/punishment3/index.html",
+    "main.4d0c4e0a.css.map": "/punishment3/static/css/main.4d0c4e0a.css.map",
+    "main.8cd461ad.js.map": "/punishment3/static/js/main.8cd461ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d0c4e0a.css",
+    "static/js/main.8cd461ad.js"
+  ]
+}
